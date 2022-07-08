@@ -1,0 +1,7 @@
+*.css
+*.svg
+node_modules
+coverage
+dist
+.eslintcache
+craco.config.js
