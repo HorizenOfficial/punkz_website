@@ -1,25 +1,22 @@
-import type { GatsbyConfig } from "gatsby"
-
-const config: GatsbyConfig = {
+module.exports = {
     siteMetadata: {
-        title: `PunkZ Token Website`,
-        siteUrl: `https://punkztoken.com`,
+        title: `PunkZ Token`,
+        siteUrl: `https://punkztoken.com/`,
     },
-    // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-    // If you use VSCode you can also use the GraphQL plugin
-    // Learn more at: https://gatsby.dev/graphql-typegen
-    graphqlTypegen: true,
     plugins: [
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-sitemap",
         "gatsby-plugin-postcss",
         "gatsby-plugin-dts-css-modules",
+        "gatsby-plugin-react-helmet",
         "gatsby-plugin-robots-txt",
         {
-            resolve: "gatsby-plugin-manifest",
+            resolve: "gatsby-source-filesystem",
             options: {
-                icon: "src/images/icon.png",
+                name: "pages",
+                path: "./src/pages/",
             },
+            __key: "pages",
         },
         {
             resolve: "gatsby-plugin-prettier-eslint",
@@ -44,7 +41,14 @@ const config: GatsbyConfig = {
                 },
             },
         },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `PunkZ Token`,
+                short_name: `PunkZ Token`,
+                start_url: `/`,
+                icon: `src/images/favicon.png`,
+            },
+        },
     ],
 }
-
-export default config

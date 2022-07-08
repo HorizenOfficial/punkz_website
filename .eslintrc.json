@@ -71,10 +71,5 @@
                 "semi": false
             }
         ]
-    },
-    "settings": {
-        "import/resolver": {
-            "typescript": {}
-        }
     }
 }

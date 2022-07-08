@@ -1,14 +1,13 @@
 import React from "react"
 
-const index = () => {
+const Index = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            More text here and more efe affaew More text here and more efe
-            affaew
+            <h1 className="text-3xl font-bold underline text-[green]">
+                Hello world hey!
+            </h1>
         </div>
     )
 }
 
-export default index
+export default Index

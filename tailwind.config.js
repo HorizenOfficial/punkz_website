@@ -1,4 +1,5 @@
 module.exports = {
+    mode: "jit",
     content: [
         "./src/pages/**/*.{js,jsx,ts,tsx}",
         "./src/components/**/*.{js,jsx,ts,tsx}",
@@ -6,5 +7,5 @@ module.exports = {
     theme: {
         extend: {},
     },
-    plugins: [],
+    plugins: ["gatsby-plugin-postcss"],
 }
