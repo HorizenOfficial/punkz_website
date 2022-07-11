@@ -1,18 +1,12 @@
 import React from "react"
-import { Button1 } from "../components/global/Button"
-import { ContentContainer } from "../components/global/Layout"
-import { H1 } from "../components/global/Typography"
+import comingSoonImg from "../assets/images/coming-soon.png"
 
 const Index = () => {
     return (
-        <main>
-            <ContentContainer>
-                <H1 className="text-3xl font-bold underline text-[green]">
-                    Hello world hey!
-                </H1>
-                <Button1>Test</Button1>
-            </ContentContainer>
-        </main>
+        <main
+            className="bg-contain bg-center bg-no-repeat bg-black h-[100vh] w-[100vw]"
+            style={{ backgroundImage: `url(${comingSoonImg})` }}
+        />
     )
 }
 
