@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkpunk_z_token_website=self.webpackChunkpunk_z_token_website||[]).push([[691],{6854:function(e,t,n){n.r(t);var l=n(7294);t.default=function(){return l.createElement("div",null,l.createElement("h1",{className:"text-3xl font-bold underline text-[green]"},"Hello world hey!"))}}}]);
-//# sourceMappingURL=component---src-pages-index-tsx-bf0a08ec0b39dcb07cbf.js.map
