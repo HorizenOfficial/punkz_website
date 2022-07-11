@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpunk_z_token_website=self.webpackChunkpunk_z_token_website||[]).push([[691],{5134:function(e,n,t){t.r(n),t.d(n,{default:function(){return b}});var c=t(7294),a=t.p+"static/coming-soon-cdc0bd92fd51153057b04db89a93cb5f.png",b=function(){return c.createElement("main",{className:"bg-contain bg-center bg-no-repeat bg-black h-[100vh] w-[100vw]",style:{backgroundImage:"url("+a+")"}})}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-8c26a3149c6fb57cae79.js.map
