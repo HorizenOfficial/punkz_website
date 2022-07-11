@@ -47,7 +47,7 @@ module.exports = {
                 name: `PunkZ Token`,
                 short_name: `PunkZ Token`,
                 start_url: `/`,
-                icon: `src/images/favicon.png`,
+                icon: `src/assets/images/favicon.png`,
             },
         },
     ],
