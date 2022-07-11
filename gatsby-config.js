@@ -10,6 +10,9 @@ module.exports = {
         "gatsby-plugin-dts-css-modules",
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-robots-txt",
+        "gatsby-plugin-image",
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-sharp",
         {
             resolve: "gatsby-source-filesystem",
             options: {
