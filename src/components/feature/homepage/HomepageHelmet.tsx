@@ -1,6 +1,6 @@
-import { Helmet } from "react-helmet"
-
 import React from "react"
+import { Helmet } from "react-helmet"
+import metaImg from "../../../assets/images/metadata.jpeg"
 
 const HomepageHelmet = () => {
     return (
@@ -29,8 +29,8 @@ const HomepageHelmet = () => {
                 name="twitter:description"
                 content="Punkz Token is a meme token for all cypherpunk rockstars in the galaxy. It’s a fungible token that lives on TokenMint Chain, which is a sidechain on Horizen"
             />
-            {/* <meta property="og:image" content={metaImg} />
-            <meta name="twitter:image" content={metaImg} /> */}
+            <meta property="og:image" content={metaImg} />
+            <meta name="twitter:image" content={metaImg} />
             <meta name="twitter:card" content="summary_large_image" />
             <link rel="canonical" href="https://punkztoken.com/" />
             <meta property="og:url" content="https://punkztoken.com/" />

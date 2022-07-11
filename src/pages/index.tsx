@@ -1,5 +1,5 @@
 import React from "react"
-import comingSoonImg from "../assets/images/coming-soon.png"
+import comingSoonImg from "../assets/images/coming-soon.jpeg"
 import HomepageHelmet from "../components/feature/homepage/HomepageHelmet"
 
 const Index = () => {
