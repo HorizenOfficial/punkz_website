@@ -14,6 +14,9 @@ module.exports = {
                 "punkz-pink-2": "#DE1FA8",
                 "punkz-dark-blue-1": "#080B25",
             },
+            fontFamily: {
+                proxima: ["proxima-nova", "sans-serif"],
+            },
         },
     },
     plugins: ["gatsby-plugin-postcss"],
