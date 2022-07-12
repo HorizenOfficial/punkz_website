@@ -78,25 +78,6 @@ const HomepageHero = () => {
                                 </div>
                             </div>
                         </div>
-
-                        {/* <div className="absolute h-full left-0 right-1/2 top-0 flex flex-col justify-center items-center">
-                            <div className="pl-[140px] mr-[60px]">
-                                <HomepageHeroLogo className="max-w-full h-[180px] xl:h-[260px]" />
-                                <p className="font-proxima text-punkz-white-1 font-bold mt-[30px] text-[22px] xl:text-[26px]">
-                                    Punkz Token (PKZ) is a meme token for all
-                                    cypherpunk rockstars in the galaxy.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="absolute h-full right-0 left-1/2 top-0 flex flex-col justify-center items-left">
-                            <div className="h-[223px] w-[330px] ml-[80px]">
-                                <HomepageHeroLinkBox className="absolute inset z-0" />
-                                <div className="relative z-1 h-full flex flex-col gap-[30px] justify-center items-center ">
-                                    {renderLinks()}
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
                 </ContentContainer>
             </SectionContainer>
