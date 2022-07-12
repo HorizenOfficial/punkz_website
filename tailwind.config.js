@@ -6,6 +6,14 @@ module.exports = {
     ],
     theme: {
         extend: {
+            screens: {
+                sm: "640px",
+                md: "768px",
+                lg: "1024px",
+                xl: "1280px",
+                "2xl": "1536px",
+                "3xl": "1921px",
+            },
             colors: {
                 "punkz-black-1": "#000000",
                 "punkz-white-1": "#FFFFFF",
@@ -16,6 +24,7 @@ module.exports = {
             },
             fontFamily: {
                 proxima: ["proxima-nova", "sans-serif"],
+                workhard: ["workhard", "sans-serif"],
             },
         },
     },
