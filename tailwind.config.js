@@ -20,6 +20,8 @@ module.exports = {
                 "punkz-white-2": "#E9ECF4",
                 "punkz-pink-1": "#D62464",
                 "punkz-pink-2": "#DE1FA8",
+                "punkz-pink-3": "#CD0093",
+                "punkz-blue-1": "#00DDEB",
                 "punkz-dark-blue-1": "#080B25",
             },
             fontFamily: {
