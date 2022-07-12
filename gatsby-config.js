@@ -11,14 +11,7 @@ module.exports = {
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-robots-txt",
         "gatsby-plugin-image",
-        {
-            resolve: `gatsby-plugin-sharp`,
-            options: {
-                defaults: {
-                    breakpoints: [750, 1080, 1366, 1920, 2560],
-                },
-            },
-        },
+        "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
         {
             resolve: "gatsby-source-filesystem",
