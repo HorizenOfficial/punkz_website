@@ -11,7 +11,7 @@ const HomepagePunkZToken: React.FC<
         <section {...props}>
             <SectionContainer>
                 <ContentContainer>
-                    <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr]">
+                    <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr] pt-10 md:pt-[85px] lg:pt-[104px]">
                         <div className="lg:relative flex items-center gap-6">
                             <img
                                 src={punkzImg}

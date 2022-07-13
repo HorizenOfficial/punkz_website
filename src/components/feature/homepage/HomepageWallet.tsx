@@ -16,7 +16,7 @@ const HomepageWallet: React.FC<
                     <img
                         src={walletImg}
                         alt="cobalt wallet"
-                        className="order-2 w-full lg:pb-[60px] xl:pb-0"
+                        className="order-2 w-full max-h-[700px] object-contain lg:pb-[60px] xl:pb-0"
                     />
                     <ContentContainer className="order-1 lg:order-2 md:mt-[50px] lg:!pl-0 lg:mt-[130px] w-full">
                         <H2>Wallet</H2>
@@ -29,7 +29,7 @@ const HomepageWallet: React.FC<
                             href="https://chrome.google.com/webstore/detail/cobalt/hekbjgfncacdinlajhgiakpaieajpfph"
                             target="_blank"
                             rel="noreferrer"
-                            className="block max-w-[343px]"
+                            className="block sm:max-w-[343px]"
                         >
                             <Button1 className="mt-[40px]">
                                 Download Cobalt
