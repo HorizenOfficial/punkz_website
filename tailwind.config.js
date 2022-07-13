@@ -19,7 +19,7 @@ module.exports = {
                 "punkz-white-1": "#FFFFFF",
                 "punkz-white-2": "#E9ECF4",
                 "punkz-gray-1": "#868C9A",
-                "punkz-pink-1": "#868C9A",
+                "punkz-pink-1": "#DE1FA8",
                 "punkz-pink-2": "#DE1FA8",
                 "punkz-pink-3": "#CD0093",
                 "punkz-pink-4": "#300223",
