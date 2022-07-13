@@ -15,7 +15,7 @@ const Index = () => {
             <Header />
             <HomepageHero />
             <HomepageAirdrops className="pt-[85px]" />
-            <HomepageWallet className="pt-10 md:pt-[85px] xl:pt-[150px]" />
+            <HomepageWallet className="pt-[118px] lg:pt-[150px] xl:pt-[150px]" />
             <HomepagePunkZToken className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageDiscord className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageFAQ />

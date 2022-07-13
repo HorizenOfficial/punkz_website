@@ -11,7 +11,7 @@ const HomepagePunkZToken: React.FC<
         <section {...props}>
             <SectionContainer>
                 <ContentContainer>
-                    <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr] pt-10 md:pt-[85px] lg:pt-[104px]">
+                    <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr]">
                         <div>
                             <H2 className="relative max-w-[700px] lg:max-w-[200px] lg:ml-auto lg:mr-[72px] z-10">
                                 <img
