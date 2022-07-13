@@ -5,6 +5,7 @@ import HomepageFAQ from "../components/feature/homepage/HomepageFAQ"
 import HomepageHero from "../components/feature/homepage/HomepageHero"
 import HomepagePunkZToken from "../components/feature/homepage/HomepagePunkZToken"
 import HomepageWallet from "../components/feature/homepage/HomepageWallet"
+import Footer from "../components/global/Footer"
 import Header from "../components/global/Header"
 import { PageContainer } from "../components/global/Layout"
 
@@ -18,6 +19,7 @@ const Index = () => {
             <HomepagePunkZToken className="pt-10 md:pt-[85px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageDiscord className="pt-10 md:pt-[85px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageFAQ />
+            <Footer />
         </PageContainer>
     )
 }
