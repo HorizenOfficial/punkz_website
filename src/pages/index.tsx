@@ -16,8 +16,8 @@ const Index = () => {
             <HomepageHero />
             <HomepageAirdrops className="pt-[85px]" />
             <HomepageWallet className="pt-10 md:pt-[85px] xl:pt-[150px]" />
-            <HomepagePunkZToken className="pt-10 md:pt-[85px] lg:pt-[150px] xl:pt-[200px]" />
-            <HomepageDiscord className="pt-10 md:pt-[85px] lg:pt-[150px] xl:pt-[200px]" />
+            <HomepagePunkZToken className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
+            <HomepageDiscord className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageFAQ />
             <Footer />
         </PageContainer>
