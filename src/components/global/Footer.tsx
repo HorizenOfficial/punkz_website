@@ -3,8 +3,7 @@ import DiscordLogoSmall from "./Icon/DiscordLogoSmall"
 import Logo from "./Icon/Logo"
 import TwitterLogoSmall from "./Icon/TwitterLogoSmall"
 import { ContentContainer, SectionContainer } from "./Layout"
-import Link1 from "./Typography/Link1"
-import Small1 from "./Typography/Small1"
+import { Link1, Small1 } from "./Typography"
 
 const Footer = () => {
     return (

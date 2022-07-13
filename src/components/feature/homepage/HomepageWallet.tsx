@@ -1,8 +1,7 @@
 import React from "react"
 import { ContentContainer, SectionContainer } from "../../global/Layout"
 import walletImg from "../../../assets/images/cobalt-wallet.png"
-import { H2 } from "../../global/Typography"
-import Body1 from "../../global/Typography/Body1"
+import { H2, Body1 } from "../../global/Typography"
 import Button1 from "../../global/Button/Button1"
 
 const HomepageWallet: React.FC<
