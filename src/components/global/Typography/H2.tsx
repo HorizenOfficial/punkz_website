@@ -8,7 +8,7 @@ const H2: React.FC<TypographyHeadingProps> = ({
 }) => {
     return (
         <h2
-            className={`font-workhard text-punkz-white-1 font-bold text-4xl md:text-[90px] md:leading-[80px] ${className}`}
+            className={`font-workhard text-punkz-white-1 font-bold text-5xl md:text-[90px] md:leading-[80px] ${className}`}
             // eslint-disable-next-line react/jsx-props-no-spreading
             {...rest}
         >

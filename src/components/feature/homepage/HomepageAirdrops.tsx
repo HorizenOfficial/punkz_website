@@ -12,7 +12,7 @@ const HomepageAirdrops: React.FC<
         const dates = [
             {
                 text: "PKZ drop to 1st group of TZNY holders ",
-                date: "July 12 2022",
+                date: "July 18 2022",
             },
             {
                 text: "PKZ drop to all TCAKE holders",
@@ -34,20 +34,22 @@ const HomepageAirdrops: React.FC<
                 <div
                     className={`${
                         isPastDate ? "bg-punkz-pink-3" : "bg-punkz-black-1"
-                    } flex items-center h-[67px] px-[46px] relative`}
+                    } grid grid-cols-[46px,1fr,46px] py-[19px] items-center`}
                     key={date.text}
                 >
-                    <WhiteCheck
-                        className={`${
-                            isPastDate ? "block" : "hidden"
-                        } absolute left-0 inset-y-auto w-[20px] h-[14px] ml-[14px]`}
-                    />
+                    <div className="m-auto">
+                        <WhiteCheck
+                            className={`${isPastDate ? "block" : "hidden"} `}
+                        />
+                    </div>
 
-                    <Body1 className="!font-bold !text-[18px]">
-                        {date.text}
-                    </Body1>
+                    <div className="flex flex-col md:flex-row justify-between gap-x-3">
+                        <Body1 className="!font-bold !text-lg">
+                            {date.text}
+                        </Body1>
 
-                    <Body1 className="ml-auto !text-[18px]">{date.date}</Body1>
+                        <Body1 className="!text-lg">{date.date}</Body1>
+                    </div>
                 </div>
             )
         })
@@ -59,22 +61,22 @@ const HomepageAirdrops: React.FC<
         <section {...props}>
             <SectionContainer>
                 <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr]">
-                    <div className="bg-punkz-dark-blue-1 py-9 lg:pt-[88px] lg:pr-[72px]">
+                    <div className="bg-punkz-dark-blue-1 py-10 lg:pt-[88px] lg:pr-[72px]">
                         <ContentContainer className="lg:!pr-0 lg:!mr-0 lg:text-right">
-                            <div className="grid grid-cols-1 md:grid-cols-2 md:justify-start md:items-center lg:grid-cols-1 item">
-                                <H2 className="md:!text-[60px] md:!leading-[60px] lg:!text-[90px] lg:!leading-[80px]">
+                            <div className="grid justify-items-start grid-cols-1 md:justify-items-start md:grid-cols-2 md:gap-x-3 md:items-center lg:grid-cols-1 item">
+                                <H2 className="text-left !max-w-[320px] md:!text-[60px] md:!leading-[60px] lg:text-right lg:!text-[90px] lg:!leading-[80px] lg:ml-auto">
                                     Initial Airdrops
                                 </H2>
-                                <Body1 className="text-punkz-blue-1 !max-w-[320px] lg:mt-[80px] ml-auto">
+                                <Body1 className="!text-punkz-blue-1 text-left text-lg md:!max-w-[320px] md:text-[22px] md:leading-[35px] md:text-left lg:text-right lg:mt-[40px] lg:ml-auto">
                                     TZNY and TCAKE holders as of July 5th
                                     00:00am EST will get a Punkz Token airdrop.
                                 </Body1>
                             </div>
                         </ContentContainer>
                     </div>
-                    <div className="bg-punkz-pink-2 pt-[88px] pl-[45px] pb-[100px]">
-                        <ContentContainer className="!pl-0 lg:!max-w-[730px] !ml-0">
-                            <div className="grid grid-cols-2 gap-x-8 gap-y-12 justify-start">
+                    <div className="bg-punkz-pink-2 pt-10 pb-12 lg:pt-[88px] lg:pl-[45px] lg:pb-[100px]">
+                        <ContentContainer className="lg:!pl-0 lg:!ml-0 lg:!max-w-[730px]">
+                            <div className="grid grid-cols-1 gap-y-10 justify-start md:grid-cols-2 md:gap-x-8 md:gap-y-12">
                                 <div>
                                     <Body1 className="!font-bold">AMOUNT</Body1>
                                     <Body1>
@@ -92,7 +94,7 @@ const HomepageAirdrops: React.FC<
                                     </Body1>
                                 </div>
 
-                                <Body1 className="col-span-2">
+                                <Body1 className="md:col-span-2">
                                     The PKZ airdrop for TZNY holders will be
                                     deployed in four batches over the course of
                                     a week. TZNY holders will be randomly
@@ -100,7 +102,7 @@ const HomepageAirdrops: React.FC<
                                     receive an airdrop as scheduled below:
                                 </Body1>
 
-                                <div className="flex flex-col gap-y-[10px] col-span-2">
+                                <div className="grid grid-cols-1 gap-y-[10px] md:col-span-2 auto-rows-fr">
                                     {renderDates()}
                                 </div>
                             </div>
