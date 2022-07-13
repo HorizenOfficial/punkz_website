@@ -21,6 +21,7 @@ module.exports = {
                 "punkz-pink-1": "#D62464",
                 "punkz-pink-2": "#DE1FA8",
                 "punkz-pink-3": "#CD0093",
+                "punkz-pink-4": "#300223",
                 "punkz-blue-1": "#00DDEB",
                 "punkz-dark-blue-1": "#080B25",
             },
