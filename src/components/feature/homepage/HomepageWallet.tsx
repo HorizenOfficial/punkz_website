@@ -35,7 +35,7 @@ const HomepageWallet: React.FC<
                             href="https://chrome.google.com/webstore/detail/cobalt/hekbjgfncacdinlajhgiakpaieajpfph"
                             target="_blank"
                             rel="noreferrer"
-                            className="block sm:max-w-[343px] mt-[10px] md:mt-[40px]"
+                            className="block md:max-w-[343px] mt-[10px] md:mt-[40px]"
                         >
                             <Button1>Download Cobalt</Button1>
                         </a>
