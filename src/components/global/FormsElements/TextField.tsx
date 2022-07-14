@@ -25,8 +25,7 @@ const TextField: React.FC<TextFieldProps> = ({ className, error, ...rest }) => {
             />
 
             {error && (
-                <div className="absolute h-[52px] px-[26px] -bottom-[42px] right-0 md:bottom-0 md:right-0 text-horizen-red text-[16px] flex flex-row items-center">
-                    {/* <AlertIcon /> */}
+                <div className="absolute h-[52px] px-[26px] right-0 bottom-0 text-[16px] flex items-center justify-center">
                     <span className="text-punkz-blue-1">{error}</span>
                 </div>
             )}
