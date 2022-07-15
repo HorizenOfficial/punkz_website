@@ -3,7 +3,7 @@ import HomepageAirdrops from "../components/feature/homepage/HomepageAirdrops"
 import HomepageDiscord from "../components/feature/homepage/HomepageDiscord"
 import HomepageFAQ from "../components/feature/homepage/HomepageFAQ"
 import HomepageHero from "../components/feature/homepage/HomepageHero"
-import HomepagePunkZToken from "../components/feature/homepage/HomepagePunkZToken"
+import HomepagePunkzToken from "../components/feature/homepage/HomepagePunkzToken"
 import HomepageWallet from "../components/feature/homepage/HomepageWallet"
 import Footer from "../components/global/Footer"
 import Header from "../components/global/Header"
@@ -15,9 +15,9 @@ const Index = () => {
         <PageContainer>
             <Header />
             <HomepageHero />
-            <HomepageAirdrops className="pt-[85px]" />
+            <HomepageAirdrops className="pt-[43px] lg:pt-[85px]" />
             <HomepageWallet className="pt-[118px] lg:pt-[150px] xl:pt-[150px]" />
-            <HomepagePunkZToken className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
+            <HomepagePunkzToken className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageDiscord className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageFAQ />
             <Newsletter />

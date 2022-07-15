@@ -9,7 +9,7 @@ const HomepageWallet: React.FC<
 > = (props) => {
     return (
         // eslint-disable-next-line react/jsx-props-no-spreading
-        <section {...props}>
+        <section {...props} id="get-started">
             <SectionContainer>
                 <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 xl:gap-16">
                     <img

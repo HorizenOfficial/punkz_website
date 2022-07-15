@@ -55,7 +55,7 @@ const HomepageAirdrops: React.FC<
 
     return (
         // eslint-disable-next-line react/jsx-props-no-spreading
-        <section {...props}>
+        <section {...props} id="airdrops">
             <SectionContainer>
                 <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr]">
                     <div className="bg-punkz-dark-blue-1 py-10 lg:pt-[88px] lg:pr-[72px]">
