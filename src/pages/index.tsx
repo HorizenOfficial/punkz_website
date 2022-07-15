@@ -1,7 +1,5 @@
 import React from "react"
-import HomepageAirdrops from "../components/feature/homepage/HomepageAirdrops"
 import HomepageDiscord from "../components/feature/homepage/HomepageDiscord"
-import HomepageFAQ from "../components/feature/homepage/HomepageFAQ"
 import HomepageHero from "../components/feature/homepage/HomepageHero"
 import HomepagePunkZToken from "../components/feature/homepage/HomepagePunkZToken"
 import HomepageWallet from "../components/feature/homepage/HomepageWallet"
@@ -15,11 +13,13 @@ const Index = () => {
         <PageContainer>
             <Header />
             <HomepageHero />
-            <HomepageAirdrops className="pt-[43px] lg:pt-[85px]" />
+            {/* Uncomment the below code when working on LP V2 */}
+            {/* <HomepageAirdrops className="pt-[43px] lg:pt-[85px]" /> */}
             <HomepageWallet className="pt-[118px] lg:pt-[150px] xl:pt-[150px]" />
             <HomepagePunkZToken className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageDiscord className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
-            <HomepageFAQ />
+            {/* Uncomment the below code when we have some FAQ copies */}
+            {/* <HomepageFAQ /> */}
             <Newsletter />
             <Footer />
         </PageContainer>

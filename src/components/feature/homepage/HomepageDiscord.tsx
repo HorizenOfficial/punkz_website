@@ -10,7 +10,7 @@ const HomepageDiscord: React.FC<
         // eslint-disable-next-line react/jsx-props-no-spreading
         <section {...props}>
             <SectionContainer>
-                <div className="bg-punkz-pink-2 py-[73px]">
+                <div className="bg-punkz-dark-blue-1 py-[73px]">
                     <ContentContainer>
                         <a
                             href="https://horizen.io/invite/discord"
