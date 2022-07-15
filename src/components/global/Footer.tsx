@@ -23,10 +23,16 @@ const Footer = () => {
                             </div>
 
                             <div className="flex items-center gap-x-[30px] md:ml-auto">
-                                <a href="/" className="group">
+                                <a
+                                    href="https://twitter.com/Punkz_Token"
+                                    className="group"
+                                >
                                     <TwitterLogoSmall className="transition-colors group-hover:fill-punkz-pink-2" />
                                 </a>
-                                <a href="/" className="group">
+                                <a
+                                    href="https://horizen.io/invite/discord"
+                                    className="group"
+                                >
                                     <DiscordLogoSmall className="transition-colors group-hover:fill-punkz-pink-2" />
                                 </a>
                             </div>

@@ -13,7 +13,7 @@ const HomepageDiscord: React.FC<
                 <div className="bg-punkz-pink-2 py-[73px]">
                     <ContentContainer>
                         <a
-                            href="/"
+                            href="https://horizen.io/invite/discord"
                             className="flex flex-col justify-center items-center"
                         >
                             <DiscordLogo />
