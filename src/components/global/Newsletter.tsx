@@ -9,7 +9,7 @@ const Newsletter = () => {
     return (
         <section>
             <SectionContainer>
-                <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr]">
+                <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr] border-t-2 border-punkz-black-1 gap-[2px]">
                     <div className="bg-punkz-blue-1 px-6 flex items-center justify-center text-center py-[26px] md:px-12 lg:pl-8 lg:pr-[40px] lg:text-right lg:py-0 lg:justify-end xl:pl-2">
                         <H2 className="!text-punkz-black-1 lg:!text-[44px] lg:!leading-[initial]">
                             Subscribe for updates
