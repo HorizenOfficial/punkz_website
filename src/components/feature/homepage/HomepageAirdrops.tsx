@@ -1,8 +1,7 @@
 import React from "react"
 import WhiteCheck from "../../global/Icon/WhiteCheck"
 import { ContentContainer, SectionContainer } from "../../global/Layout"
-import { H2 } from "../../global/Typography"
-import Body1 from "../../global/Typography/Body1"
+import { H2, Body1 } from "../../global/Typography"
 
 const HomepageAirdrops: React.FC<
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
