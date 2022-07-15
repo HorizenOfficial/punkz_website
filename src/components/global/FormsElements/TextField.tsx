@@ -8,7 +8,6 @@ interface TextFieldProps {
     onKeyUp?: React.KeyboardEventHandler<HTMLInputElement>
     value: string
     className?: string
-    // disabled?: boolean
     error?: string
 }
 
