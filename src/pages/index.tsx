@@ -2,6 +2,7 @@ import React from "react"
 import HomepageAirdrops from "../components/feature/homepage/HomepageAirdrops"
 import HomepageDiscord from "../components/feature/homepage/HomepageDiscord"
 import HomepageFAQ from "../components/feature/homepage/HomepageFAQ"
+import HomepageHelmet from "../components/feature/homepage/HomepageHelmet"
 import HomepageHero from "../components/feature/homepage/HomepageHero"
 import HomepagePunkZToken from "../components/feature/homepage/HomepagePunkZToken"
 import HomepageWallet from "../components/feature/homepage/HomepageWallet"
@@ -13,6 +14,7 @@ import Newsletter from "../components/global/Newsletter"
 const Index = () => {
     return (
         <PageContainer>
+            <HomepageHelmet />
             <Header />
             <HomepageHero />
             <HomepageAirdrops className="pt-[43px] lg:pt-[85px]" />
