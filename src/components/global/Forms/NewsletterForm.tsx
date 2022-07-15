@@ -42,7 +42,7 @@ const NewsletterForm: React.FC<NewsletterFormProps> = ({ onSubmit }) => {
                 values,
                 {
                     headers: {
-                        Authorization: `Bearer glpsxmylaj0jvtpbsve1zjsrazie56`,
+                        Authorization: `Bearer ${process.env.GATSBY_INTEGROMAT_TOKEN}`,
                     },
                 }
             )
