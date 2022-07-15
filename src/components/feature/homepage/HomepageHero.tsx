@@ -10,7 +10,6 @@ import { Body1 } from "../../global/Typography"
 
 const HomepageHero = () => {
     const renderLinks = (): JSX.Element[] => {
-        const elements: JSX.Element[] = []
         const links = [
             {
                 text: "About Punkz",
@@ -26,21 +25,18 @@ const HomepageHero = () => {
             },
         ]
 
-        links.forEach((link) =>
-            elements.push(
-                <a
-                    href={link.href}
-                    key={link.text}
-                    className="group w-[160px] transition-all lg:hover:ml-2 flex items-center flex-col lg:flex-row lg:gap-x-5"
-                >
-                    <HomepageHeroLinkArrow className="transition-colors stroke-punkz-pink-2 rotate-90 lg:rotate-0 lg:stroke-[#B4BBCC] group-hover:stroke-punkz-pink-2" />
-                    <span className="font-proxima font-bold text-[18px] text-white lg:text-[#B4BBCC] hover:text-white">
-                        {link.text}
-                    </span>
-                </a>
-            )
-        )
-        return elements
+        return links.map((link) => (
+            <a
+                href={link.href}
+                key={link.text}
+                className="group w-[160px] transition-all lg:hover:ml-2 flex items-center flex-col lg:flex-row lg:gap-x-5"
+            >
+                <HomepageHeroLinkArrow className="transition-colors stroke-punkz-pink-2 rotate-90 lg:rotate-0 lg:stroke-[#B4BBCC] group-hover:stroke-punkz-pink-2" />
+                <span className="font-proxima font-bold text-[18px] text-white lg:text-[#B4BBCC] hover:text-white">
+                    {link.text}
+                </span>
+            </a>
+        ))
     }
 
     return (

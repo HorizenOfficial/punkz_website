@@ -2,7 +2,7 @@ import React, { useCallback, useMemo, useState } from "react"
 import { Formik } from "formik"
 import * as Yup from "yup"
 import axios from "axios"
-import { Button2 } from "../Button"
+import { ButtonSecondary } from "../Button"
 import { TextField } from "../FormsElements"
 
 interface NewsletterFormProps {
@@ -42,7 +42,7 @@ const NewsletterForm: React.FC<NewsletterFormProps> = ({ onSubmit }) => {
                 values,
                 {
                     headers: {
-                        Authorization: `Bearer glpsxmylaj0jvtpbsve1zjsrazie56`,
+                        Authorization: `Bearer ${process.env.GATSBY_INTEGROMAT_TOKEN}`,
                     },
                 }
             )
@@ -87,12 +87,12 @@ const NewsletterForm: React.FC<NewsletterFormProps> = ({ onSubmit }) => {
                                     }
                                 />
                             </div>
-                            <Button2
+                            <ButtonSecondary
                                 type="submit"
                                 disabled={formik.isSubmitting}
                             >
                                 Subscribe
-                            </Button2>
+                            </ButtonSecondary>
                         </form>
                         {showSubmissionError && (
                             <span className="text-punkz-blue-1">

@@ -1,7 +1,11 @@
 import React from "react"
 import { ButtonProps } from "./types"
 
-const Button1: React.FC<ButtonProps> = ({ children, className, ...props }) => {
+const ButtonPrimary: React.FC<ButtonProps> = ({
+    children,
+    className,
+    ...props
+}) => {
     return (
         <button
             type="button"
@@ -16,4 +20,4 @@ const Button1: React.FC<ButtonProps> = ({ children, className, ...props }) => {
     )
 }
 
-export default Button1
+export default ButtonPrimary

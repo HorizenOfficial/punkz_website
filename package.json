@@ -18,6 +18,7 @@
     "dependencies": {
         "@types/react-helmet": "^6.1.5",
         "axios": "^0.25.0",
+        "dotenv": "^16.0.1",
         "eslint": "^7.32.0",
         "formik": "^2.2.9",
         "gatsby": "^4.5.4",
