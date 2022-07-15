@@ -8,7 +8,7 @@ const H3: React.FC<TypographyHeadingProps> = ({
 }) => {
     return (
         <h3
-            className={`font-roboto text-horizen-white-1 font-bold text-[30px] leading-[35px] ${className}`}
+            className={`font-proxima text-punkz-white-1 font-bold text-3xl md:text-[44px]  ${className}`}
             // eslint-disable-next-line react/jsx-props-no-spreading
             {...rest}
         >
