@@ -12,16 +12,16 @@ const HomepageHero = () => {
     const renderLinks = (): JSX.Element[] => {
         const links = [
             {
-                text: "About Punkz",
-                href: "/",
+                text: "Airdrops",
+                href: "#airdrops",
             },
             {
                 text: "Get Started",
-                href: "/",
+                href: "#get-started",
             },
             {
-                text: "Airdrops",
-                href: "/",
+                text: "About Punkz",
+                href: "#about-punkz",
             },
         ]
 

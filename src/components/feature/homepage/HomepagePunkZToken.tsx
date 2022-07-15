@@ -8,7 +8,7 @@ const HomepagePunkZToken: React.FC<
 > = (props) => {
     return (
         // eslint-disable-next-line react/jsx-props-no-spreading
-        <section {...props}>
+        <section {...props} id="about-punkz">
             <SectionContainer>
                 <ContentContainer>
                     <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr]">
