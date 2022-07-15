@@ -7,7 +7,6 @@ const HomepageAirdrops: React.FC<
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
 > = (props) => {
     const renderDates = (): JSX.Element[] => {
-        const elements: JSX.Element[] = []
         const dates = [
             {
                 text: "PKZ drop to 1st group of TZNY holders ",
@@ -27,9 +26,9 @@ const HomepageAirdrops: React.FC<
             },
         ]
 
-        dates.forEach((date) => {
+        return dates.map((date) => {
             const isPastDate = new Date(date.date) < new Date()
-            elements.push(
+            return (
                 <div
                     className={`${
                         isPastDate ? "bg-punkz-pink-3" : "bg-punkz-black-1"
@@ -52,7 +51,6 @@ const HomepageAirdrops: React.FC<
                 </div>
             )
         })
-        return elements
     }
 
     return (
