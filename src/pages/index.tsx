@@ -8,6 +8,7 @@ import HomepageWallet from "../components/feature/homepage/HomepageWallet"
 import Footer from "../components/global/Footer"
 import Header from "../components/global/Header"
 import { PageContainer } from "../components/global/Layout"
+import Newsletter from "../components/global/Newsletter"
 
 const Index = () => {
     return (
@@ -19,6 +20,7 @@ const Index = () => {
             <HomepagePunkZToken className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageDiscord className="pt-[118px] lg:pt-[150px] xl:pt-[200px]" />
             <HomepageFAQ />
+            <Newsletter />
             <Footer />
         </PageContainer>
     )
