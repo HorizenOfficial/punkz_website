@@ -2,7 +2,7 @@ import React from "react"
 import { ContentContainer, SectionContainer } from "../../global/Layout"
 import walletImg from "../../../assets/images/cobalt-wallet.png"
 import { H2, Body1 } from "../../global/Typography"
-import Button1 from "../../global/Button/Button1"
+import { Button1 } from "../../global/Button"
 
 const HomepageWallet: React.FC<
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
