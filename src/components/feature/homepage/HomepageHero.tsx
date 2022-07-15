@@ -8,7 +8,6 @@ import HomepageHeroLinkArrow from "../../global/Icon/HomepageHeroLinkArrow"
 
 const HomepageHero = () => {
     const renderLinks = (): JSX.Element[] => {
-        const elements: JSX.Element[] = []
         const links = [
             {
                 text: "About Punkz",
@@ -24,17 +23,14 @@ const HomepageHero = () => {
             },
         ]
 
-        links.forEach((link) =>
-            elements.push(
-                <a href={link.href} className="group w-[160px]" key={link.text}>
-                    <span className="font-proxima font-bold text-[18px] transition-all group-hover:ml-2 flex gap-5 items-center text-[#B4BBCC] hover:text-white">
-                        <HomepageHeroLinkArrow className="transition-colors stroke-[#B4BBCC] group-hover:stroke-punkz-pink-2" />
-                        {link.text}
-                    </span>
-                </a>
-            )
-        )
-        return elements
+        return links.map((link) => (
+            <a href={link.href} className="group w-[160px]" key={link.text}>
+                <span className="font-proxima font-bold text-[18px] transition-all group-hover:ml-2 flex gap-5 items-center text-[#B4BBCC] hover:text-white">
+                    <HomepageHeroLinkArrow className="transition-colors stroke-[#B4BBCC] group-hover:stroke-punkz-pink-2" />
+                    {link.text}
+                </span>
+            </a>
+        ))
     }
 
     return (
