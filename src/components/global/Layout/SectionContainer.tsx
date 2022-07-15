@@ -8,7 +8,7 @@ const SectionContainer: React.FC<
 > = ({ className, children, ...props }) => {
     return (
         <div
-            className={`mx-auto max-w-[1920px] 3xl:max-w-screen-2xl ${
+            className={`mx-auto max-w-screen-3xl 3xl:max-w-screen-2xl ${
                 className || ""
             }`}
             // eslint-disable-next-line react/jsx-props-no-spreading
