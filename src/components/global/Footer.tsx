@@ -19,7 +19,7 @@ const Footer = () => {
                             <div className="flex flex-col gap-y-[14px] text-center justify-center md:flex-row md:ml-[60px] md:gap-x-[50px]">
                                 <Link1 href="#airdrops">Airdrops</Link1>
                                 <Link1 href="#get-started">Get Started</Link1>
-                                <Link1 href="#about-punkz">About PunkZ</Link1>
+                                <Link1 href="#about-punkz">About Punkz</Link1>
                             </div>
 
                             <div className="flex items-center gap-x-[30px] md:ml-auto">
