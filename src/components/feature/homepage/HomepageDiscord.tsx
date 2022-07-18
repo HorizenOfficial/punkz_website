@@ -14,7 +14,9 @@ const HomepageDiscord: React.FC<
                     <ContentContainer>
                         <a
                             href="https://horizen.io/invite/discord"
+                            target="_blank"
                             className="flex flex-col justify-center items-center"
+                            rel="noreferrer"
                         >
                             <DiscordLogo />
                             <H2 className="!text-5xl mt-[18px]">
