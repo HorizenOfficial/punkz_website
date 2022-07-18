@@ -17,12 +17,12 @@ const HomepageDiscord: React.FC<
                             <a
                                 href="https://horizen.io/invite/discord"
                                 target="_blank"
-                                className="flex flex-col justify-center items-center relative group"
+                                className="flex flex-col items-center relative group"
                                 rel="noreferrer"
                             >
                                 <Brushstroke className="absolute w-full z-0 group-hover:fill-punkz-pink-3" />
                                 <DiscordLogo className="relative z-10" />
-                                <H2 className="!text-5xl mt-[18px] relative z-10">
+                                <H2 className="!text-5xl lg:mt-[12px] relative z-10">
                                     Join the Punkz
                                 </H2>
                             </a>
