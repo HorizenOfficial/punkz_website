@@ -24,7 +24,6 @@ const HomepageAirdropsV1: React.FC<
                             Initial Airdrops
                         </H2>
                     </SmallBox>
-
                     <BigBox
                         className={`lg:pl-[47px] ${paddingsRight}`}
                         innerClassName="lg:mr-auto"
@@ -51,7 +50,6 @@ const HomepageAirdropsV1: React.FC<
                             for the latest updates.
                         </Body1>
                     </BigBox>
-
                     <BottomCut className="hidden lg:block absolute right-0 bottom-0 !w-[calc(80%+28px)]" />
                 </div>
                 <div className="relative lg:h-[440px] bg-punkz-dark-blue-1 grid grid-cols-1 lg:grid-cols-[65fr,35fr]">
@@ -75,7 +73,6 @@ const HomepageAirdropsV1: React.FC<
                             are coming soon
                         </Body1>
                     </BigBox>
-
                     <SmallBox
                         className={`order-1 lg:order-2 lg:pl-[77px] bg-punkz-blue-1 ${paddingsRight}`}
                     >
