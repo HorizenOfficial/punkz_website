@@ -43,6 +43,7 @@ const Footer = () => {
                         </div>
                     </ContentContainer>
                 </div>
+                <div className="hidden lg:block border-b-punkz-pink-2 -mt-[25px] border-b-[25px] border-x-[20px] border-x-transparent w-[424px] mx-auto" />
                 <div className="bg-punkz-pink-2 text-center py-[8px]">
                     <ContentContainer>
                         <Small1 className="block m-auto max-w-[180px] md:max-w-none">
