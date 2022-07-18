@@ -16,7 +16,7 @@ const Index = () => {
             <HomepageHelmet />
             <Header />
             <HomepageHero />
-            <HomepageAirdropsV1 className="lg:pt-[100px]" />
+            <HomepageAirdropsV1 className="pt-[65px] lg:pt-[100px]" />
             {/* Uncomment the below code when working on LP V2 */}
             {/* <HomepageAirdrops className="pt-[43px] lg:pt-[85px]" /> */}
             <HomepageWallet className="pt-[65px] lg:pt-[100px]" />
