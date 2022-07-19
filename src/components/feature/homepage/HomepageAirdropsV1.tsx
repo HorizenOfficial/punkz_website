@@ -28,7 +28,7 @@ const HomepageAirdropsV1: React.FC<
                         className={`lg:pl-[47px] ${paddingsRight}`}
                         innerClassName="lg:mr-auto"
                     >
-                        <Body1 className="font-bold">
+                        <Body1 className="!font-bold">
                             TZNY and TCAKE holders as of July 5th 00:00am EST
                             will get a Punkz Token airdrop.
                         </Body1>
@@ -58,7 +58,7 @@ const HomepageAirdropsV1: React.FC<
                         className={`lg:pr-[47px] order-2 lg:order-1 ${paddingsLeft}`}
                         innerClassName="lg:ml-auto"
                     >
-                        <Body1 className="font-bold">
+                        <Body1 className="!font-bold">
                             Not TZNY or TCAKE holders?
                             <br />
                             The Punkz Droplist is for you!
