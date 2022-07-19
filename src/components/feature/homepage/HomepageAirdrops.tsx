@@ -1,14 +1,12 @@
 import React from "react"
 import WhiteCheck from "../../global/Icon/WhiteCheck"
 import { ContentContainer, SectionContainer } from "../../global/Layout"
-import { H2 } from "../../global/Typography"
-import Body1 from "../../global/Typography/Body1"
+import { H2, Body1 } from "../../global/Typography"
 
 const HomepageAirdrops: React.FC<
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
 > = (props) => {
     const renderDates = (): JSX.Element[] => {
-        const elements: JSX.Element[] = []
         const dates = [
             {
                 text: "PKZ drop to 1st group of TZNY holders ",
@@ -28,9 +26,9 @@ const HomepageAirdrops: React.FC<
             },
         ]
 
-        dates.forEach((date) => {
+        return dates.map((date) => {
             const isPastDate = new Date(date.date) < new Date()
-            elements.push(
+            return (
                 <div
                     className={`${
                         isPastDate ? "bg-punkz-pink-3" : "bg-punkz-black-1"
@@ -53,12 +51,11 @@ const HomepageAirdrops: React.FC<
                 </div>
             )
         })
-        return elements
     }
 
     return (
         // eslint-disable-next-line react/jsx-props-no-spreading
-        <section {...props}>
+        <section {...props} id="airdrops">
             <SectionContainer>
                 <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr]">
                     <div className="bg-punkz-dark-blue-1 py-10 lg:pt-[88px] lg:pr-[72px]">

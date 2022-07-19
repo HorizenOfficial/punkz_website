@@ -2,14 +2,14 @@ import React from "react"
 import { ContentContainer, SectionContainer } from "../../global/Layout"
 import walletImg from "../../../assets/images/cobalt-wallet.png"
 import { H2, Body1 } from "../../global/Typography"
-import Button1 from "../../global/Button/Button1"
+import { ButtonPrimary } from "../../global/Button"
 
 const HomepageWallet: React.FC<
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
 > = (props) => {
     return (
         // eslint-disable-next-line react/jsx-props-no-spreading
-        <section {...props}>
+        <section {...props} id="get-started">
             <SectionContainer>
                 <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 xl:gap-16">
                     <img
@@ -35,9 +35,9 @@ const HomepageWallet: React.FC<
                             href="https://chrome.google.com/webstore/detail/cobalt/hekbjgfncacdinlajhgiakpaieajpfph"
                             target="_blank"
                             rel="noreferrer"
-                            className="block sm:max-w-[343px] mt-[10px] md:mt-[40px]"
+                            className="block md:max-w-[343px] mt-[10px] md:mt-[40px]"
                         >
-                            <Button1>Download Cobalt</Button1>
+                            <ButtonPrimary>Download Cobalt</ButtonPrimary>
                         </a>
                     </ContentContainer>
                 </div>
