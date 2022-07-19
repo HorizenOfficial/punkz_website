@@ -1,10 +1,6 @@
-require("dotenv").config({
-    path: `.env`,
-})
-
 module.exports = {
     siteMetadata: {
-        title: `Punkz Token`,
+        title: `PunkZ Token`,
         siteUrl: `https://punkztoken.com/`,
     },
     plugins: [
@@ -48,8 +44,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Punkz Token`,
-                short_name: `Punkz Token`,
+                name: `PunkZ Token`,
+                short_name: `PunkZ Token`,
                 start_url: `/`,
                 icon: `src/assets/images/favicon.jpeg`,
             },

@@ -1,4 +1,3 @@
-import ButtonPrimary from "./ButtonPrimary"
-import ButtonSecondary from "./ButtonSecondary"
+import Button1 from "./Button1"
 
-export { ButtonPrimary, ButtonSecondary }
+export { Button1 }

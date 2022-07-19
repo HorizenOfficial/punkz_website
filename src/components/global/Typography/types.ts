@@ -13,14 +13,4 @@ type TypographyLinkProps = React.DetailedHTMLProps<
     HTMLAnchorElement
 >
 
-type TypographySmallProps = React.DetailedHTMLProps<
-    React.HTMLAttributes<HTMLElement>,
-    HTMLElement
->
-
-export {
-    TypographyHeadingProps,
-    TypographyBodyProps,
-    TypographyLinkProps,
-    TypographySmallProps,
-}
+export { TypographyHeadingProps, TypographyBodyProps, TypographyLinkProps }
