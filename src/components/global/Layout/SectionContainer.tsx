@@ -1,6 +1,6 @@
 import React from "react"
 
-const ContentContainer: React.FC<
+const SectionContainer: React.FC<
     React.DetailedHTMLProps<
         React.HTMLAttributes<HTMLDivElement>,
         HTMLDivElement
@@ -8,7 +8,7 @@ const ContentContainer: React.FC<
 > = ({ className, children, ...props }) => {
     return (
         <div
-            className={`px-6 md:px-12 lg:px-8 xl:px-2 max-w-screen-xl mx-auto  ${
+            className={`mx-auto max-w-screen-3xl 3xl:max-w-screen-2xl ${
                 className || ""
             }`}
             // eslint-disable-next-line react/jsx-props-no-spreading
@@ -18,5 +18,4 @@ const ContentContainer: React.FC<
         </div>
     )
 }
-
-export default ContentContainer
+export default SectionContainer

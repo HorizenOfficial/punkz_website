@@ -8,7 +8,7 @@ const Body1: React.FC<TypographyBodyProps> = ({
 }) => {
     return (
         <p
-            className={`font-roboto font-bold text-horizen-white-1 text-[22px] leading-[30px] ${className}`}
+            className={`font-proxima text-punkz-white-1 font-medium text-[22px] leading-[35px] ${className}`}
             // eslint-disable-next-line react/jsx-props-no-spreading
             {...rest}
         >
