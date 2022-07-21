@@ -1,4 +1,5 @@
 import React from "react"
+import { twMerge } from "tailwind-merge"
 import { TypographyBodyProps } from "./types"
 
 const Body1: React.FC<TypographyBodyProps> = ({
@@ -8,7 +9,10 @@ const Body1: React.FC<TypographyBodyProps> = ({
 }) => {
     return (
         <p
-            className={`font-proxima text-punkz-white-1 font-medium text-[22px] leading-[35px] ${className}`}
+            className={twMerge(
+                "font-proxima text-punkz-white-1 font-medium text-[22px] leading-[35px]",
+                className
+            )}
             // eslint-disable-next-line react/jsx-props-no-spreading
             {...rest}
         >

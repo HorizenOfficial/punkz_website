@@ -1,4 +1,5 @@
 import React from "react"
+import { twMerge } from "tailwind-merge"
 
 interface TextFieldProps {
     name?: string
@@ -15,10 +16,10 @@ const TextField: React.FC<TextFieldProps> = ({ className, error, ...rest }) => {
     return (
         <div className="relative w-full">
             <input
-                className={`transition-colors w-full px-[26px] bg-punkz-pink-2 text-punkz-black-1 placeholder:text-punkz-black-1 font-proxima font-medium text-[18px] leading-[35px] h-[52px] border-2 border-punkz-black-1 grow hover:bg-punkz-pink-3 focus:bg-punkz-pink-3
-                ${className || ""}
-                ${error ? "border-horizen-red focus:border-horizen-red" : ""}
-                `}
+                className={twMerge(
+                    "transition-colors w-full px-[26px] bg-punkz-pink-2 text-punkz-black-1 placeholder:text-punkz-black-1 font-proxima font-medium text-[18px] leading-[35px] h-[52px] border-2 border-punkz-black-1 grow hover:bg-punkz-pink-3 focus:bg-punkz-pink-3",
+                    className
+                )}
                 // eslint-disable-next-line react/jsx-props-no-spreading
                 {...rest}
             />
