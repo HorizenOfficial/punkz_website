@@ -30,15 +30,12 @@ const HomepageWallet: React.FC<
                             alt="cobalt wallet"
                             className="block md:hidden w-full max-h-[300px] object-contain"
                         />
-
-                        <a
+                        <ButtonPrimary
                             href="https://chrome.google.com/webstore/detail/cobalt/hekbjgfncacdinlajhgiakpaieajpfph"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="block md:max-w-[343px] mt-[10px] md:mt-[40px]"
+                            className="block mt-[10px] md:mt-[40px]"
                         >
-                            <ButtonPrimary>Download Cobalt</ButtonPrimary>
-                        </a>
+                            Download Cobalt
+                        </ButtonPrimary>
                     </ContentContainer>
                 </div>
             </SectionContainer>
