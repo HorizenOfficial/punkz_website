@@ -88,11 +88,11 @@ const HomepageHero = () => {
                         <div className="flex flex-col items-center justify-center">
                             <HomepageHeroFrame className="w-full flex" />
                             <HomepageHeroLogo className="w-[240px] h-[137px] relative z-10 mt-[15px] md:mt-[100px]" />
-                            <Body1 className="!font-bold max-w-[400px] !text-center mt-4 relative z-10">
+                            <Body1 className="font-bold max-w-[400px] text-center mt-4 relative z-10">
                                 Punkz Token (PKZ) is a meme token for all
                                 cypherpunk rockstars in the galaxy.
                             </Body1>
-                            <div className="relative !max-w-[100vw] w-[100vw] -mt-7 z-0 md:-mt-[280px]">
+                            <div className="relative max-w-[100vw] w-[100vw] -mt-7 z-0 md:-mt-[280px]">
                                 <img
                                     src={heroImg}
                                     alt="hero-img"

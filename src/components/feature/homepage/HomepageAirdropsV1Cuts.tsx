@@ -1,4 +1,5 @@
 import React from "react"
+import { twMerge } from "tailwind-merge"
 
 interface CutProps {
     className: string
@@ -7,7 +8,10 @@ interface CutProps {
 const TopCut: React.FC<CutProps> = ({ className }) => {
     return (
         <div
-            className={`border-punkz-black-1 w-full border-r-transparent border-t-[28px] border-r-[28px] ${className}`}
+            className={twMerge(
+                "border-punkz-black-1 w-full border-r-transparent border-t-[28px] border-r-[28px]",
+                className
+            )}
         />
     )
 }
@@ -15,7 +19,10 @@ const TopCut: React.FC<CutProps> = ({ className }) => {
 const BottomCut: React.FC<CutProps> = ({ className }) => {
     return (
         <div
-            className={`border-punkz-black-1 w-full border-l-transparent border-b-[28px] border-l-[28px] ${className}`}
+            className={twMerge(
+                "border-punkz-black-1 w-full border-l-transparent border-b-[28px] border-l-[28px]",
+                className
+            )}
         />
     )
 }

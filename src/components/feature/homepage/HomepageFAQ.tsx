@@ -23,7 +23,7 @@ const HomepageFAQ: React.FC<
 
         return faqs.map((faq) => (
             <div key={faq.answer}>
-                <Body1 className="!font-bold">{faq.question}</Body1>
+                <Body1 className="font-bold">{faq.question}</Body1>
                 <p className="font-proxima font-medium text-[18px] leading-[35px] text-punkz-gray-1 mt-[20px]">
                     {faq.answer}
                 </p>
