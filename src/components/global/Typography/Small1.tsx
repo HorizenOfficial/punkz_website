@@ -10,7 +10,7 @@ const Small1: React.FC<TypographySmallProps> = ({
     return (
         <small
             className={twMerge(
-                "font-proxima font-medium text-[18px] leading-[35px] text-punkz-white-1",
+                "font-proxima font-medium text-[18px] leading-[35px] text-white",
                 className
             )}
             // eslint-disable-next-line react/jsx-props-no-spreading

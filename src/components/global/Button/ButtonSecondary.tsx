@@ -11,7 +11,7 @@ const ButtonSecondary: React.FC<ButtonProps> = ({
         <button
             type="button"
             className={twMerge(
-                "transition-colors w-full max-w-full md:max-w-[min(220px,100%)] h-[52px] flex justify-center items-center font-proxima font-bold text-[22px] leading-[35px] text-punkz-white-1 bg-punkz-black-1 border-punkz-white-1 hover:text-punkz-pink-2 disabled:!opacity-70 disabled:!bg-punkz-black-1 disabled:!text-punkz-white-1",
+                "transition-colors w-full max-w-full md:max-w-[min(220px,100%)] h-[52px] flex justify-center items-center font-proxima font-bold text-[22px] leading-[35px] text-white bg-black border-white hover:text-primary-light disabled:!opacity-70 disabled:!bg-black disabled:!text-white",
                 className
             )}
             // eslint-disable-next-line react/jsx-props-no-spreading

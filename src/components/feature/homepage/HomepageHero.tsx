@@ -31,7 +31,7 @@ const HomepageHero = () => {
                 key={link.text}
                 className="group w-[160px] transition-all lg:hover:ml-2 flex items-center flex-col lg:flex-row lg:gap-x-5"
             >
-                <HomepageHeroLinkArrow className="transition-colors stroke-punkz-pink-2 rotate-90 lg:rotate-0 lg:stroke-[#B4BBCC] group-hover:stroke-punkz-pink-2" />
+                <HomepageHeroLinkArrow className="transition-colors stroke-primary-light rotate-90 lg:rotate-0 lg:stroke-[#B4BBCC] group-hover:stroke-primary-light" />
                 <span className="font-proxima font-bold text-[18px] text-white lg:text-[#B4BBCC] hover:text-white">
                     {link.text}
                 </span>
@@ -50,7 +50,7 @@ const HomepageHero = () => {
                     />
 
                     <div className="absolute grid grid-cols-2 inset-0">
-                        <div className="bg-punkz-black-1/50 backdrop-blur-[7px]" />
+                        <div className="bg-black/50 backdrop-blur-[7px]" />
                         <div />
                     </div>
 
@@ -67,7 +67,7 @@ const HomepageHero = () => {
                         <div className="absolute inset-0 grid gap-[100px] grid-cols-2 items-center justify-items-center max-w-screen-xl mx-auto px-6 md:px-12 lg:px-8 xl:px-14">
                             <div className="flex flex-col items-center max-w-[456px] pl-[40px] xl:pl-0">
                                 <HomepageHeroLogo className="h-full w-full" />
-                                <p className="font-proxima text-punkz-white-1 font-bold mt-[20px] text-[22px] xl:text-[26px]">
+                                <p className="font-proxima text-white font-bold mt-[20px] text-[22px] xl:text-[26px]">
                                     Punkz Token (PKZ) is a meme token for all
                                     cypherpunk rockstars in the galaxy.
                                 </p>

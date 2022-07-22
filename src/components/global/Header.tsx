@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header className="relative z-10">
             <SectionContainer>
-                <hr className="hidden lg:block border-t-[8px] border-punkz-pink-1" />
+                <hr className="hidden lg:block border-t-[8px] border-primary-light" />
                 <ContentContainer>
                     <div className="h-[80px] lg:h-[160px] flex justify-center items-center">
                         <a href="/" className="mx-auto flex justify-center">

@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer>
             <SectionContainer>
-                <div className="bg-punkz-black-1">
+                <div className="bg-black">
                     <ContentContainer>
                         <div className="flex items-center py-[48px] gap-y-[30px] flex-col md:flex-row md:py-[86px]">
                             <a href="/">
@@ -29,7 +29,7 @@ const Footer = () => {
                                     className="group"
                                     rel="noreferrer"
                                 >
-                                    <TwitterLogoSmall className="transition-colors group-hover:fill-punkz-pink-2" />
+                                    <TwitterLogoSmall className="transition-colors group-hover:fill-primary-light" />
                                 </a>
                                 <a
                                     href="https://horizen.io/invite/discord"
@@ -37,14 +37,14 @@ const Footer = () => {
                                     className="group"
                                     rel="noreferrer"
                                 >
-                                    <DiscordLogoSmall className="transition-colors group-hover:fill-punkz-pink-2" />
+                                    <DiscordLogoSmall className="transition-colors group-hover:fill-primary-light" />
                                 </a>
                             </div>
                         </div>
                     </ContentContainer>
                 </div>
-                <div className="hidden lg:block border-b-punkz-pink-2 -mt-[25px] border-b-[25px] border-x-[20px] border-x-transparent w-[424px] mx-auto" />
-                <div className="bg-punkz-pink-2 text-center py-[8px]">
+                <div className="hidden lg:block border-b-primary-light -mt-[25px] border-b-[25px] border-x-[20px] border-x-transparent w-[424px] mx-auto" />
+                <div className="bg-primary-light text-center py-[8px]">
                     <ContentContainer>
                         <Small1 className="block m-auto max-w-[180px] md:max-w-none">
                             © 2022 Punkz Token. All Rights Reserved.
