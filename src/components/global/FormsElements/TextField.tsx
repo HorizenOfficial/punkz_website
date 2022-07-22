@@ -17,7 +17,7 @@ const TextField: React.FC<TextFieldProps> = ({ className, error, ...rest }) => {
         <div className="relative w-full">
             <input
                 className={twMerge(
-                    "transition-colors w-full px-[26px] bg-punkz-pink-2 text-punkz-black-1 placeholder:text-punkz-black-1 font-proxima font-medium text-[18px] leading-[35px] h-[52px] border-2 border-punkz-black-1 grow hover:bg-punkz-pink-3 focus:bg-punkz-pink-3",
+                    "transition-colors w-full px-[26px] bg-primary-light text-black placeholder:text-black font-proxima font-medium text-[18px] leading-[35px] h-[52px] border-2 border-black grow hover:bg-primary focus:bg-primary",
                     className
                 )}
                 // eslint-disable-next-line react/jsx-props-no-spreading
@@ -26,7 +26,7 @@ const TextField: React.FC<TextFieldProps> = ({ className, error, ...rest }) => {
 
             {error && (
                 <div className="absolute h-[52px] px-[26px] right-0 bottom-0 text-[16px] flex items-center justify-center">
-                    <span className="text-punkz-blue-1">{error}</span>
+                    <span className="text-secondary">{error}</span>
                 </div>
             )}
         </div>

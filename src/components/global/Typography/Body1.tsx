@@ -10,7 +10,7 @@ const Body1: React.FC<TypographyBodyProps> = ({
     return (
         <p
             className={twMerge(
-                "font-proxima text-punkz-white-1 font-medium text-[22px] leading-[35px]",
+                "font-proxima text-white font-medium text-[22px] leading-[35px]",
                 className
             )}
             // eslint-disable-next-line react/jsx-props-no-spreading

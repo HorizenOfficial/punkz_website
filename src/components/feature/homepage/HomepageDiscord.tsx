@@ -20,7 +20,7 @@ const HomepageDiscord: React.FC<
                                 className="flex flex-col items-center relative group"
                                 rel="noreferrer"
                             >
-                                <Brushstroke className="absolute w-full z-0 group-hover:fill-punkz-pink-3" />
+                                <Brushstroke className="absolute w-full z-0 group-hover:fill-primary" />
                                 <DiscordLogo className="relative z-10" />
                                 <H2 className="!text-5xl lg:mt-[12px] relative z-10">
                                     Join the Punkz
