@@ -24,7 +24,7 @@ const HomepageFAQ: React.FC<
         return faqs.map((faq) => (
             <div key={faq.answer}>
                 <Body1 className="font-bold">{faq.question}</Body1>
-                <p className="font-proxima font-medium text-[18px] leading-[35px] text-punkz-gray-1 mt-[20px]">
+                <p className="font-proxima font-medium text-[18px] leading-[35px] text-gray mt-[20px]">
                     {faq.answer}
                 </p>
             </div>
@@ -35,7 +35,7 @@ const HomepageFAQ: React.FC<
         // eslint-disable-next-line react/jsx-props-no-spreading
         <section {...props}>
             <SectionContainer>
-                <div className="bg-punkz-dark-blue-1 py-[73px] lg:py-[104px]">
+                <div className="bg-secondary-dark py-[73px] lg:py-[104px]">
                     <ContentContainer>
                         <div className="grid grid-cols-1 lg:grid-cols-[35fr,65fr]">
                             <H2 className="text-left lg:text-right lg:mr-[72px]">

@@ -95,7 +95,7 @@ const NewsletterForm: React.FC<NewsletterFormProps> = ({ onSubmit }) => {
                             </ButtonSecondary>
                         </form>
                         {showSubmissionError && (
-                            <span className="text-punkz-blue-1">
+                            <span className="text-secondary">
                                 An error occurred, please try again later
                             </span>
                         )}

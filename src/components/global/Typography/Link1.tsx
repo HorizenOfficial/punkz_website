@@ -10,7 +10,7 @@ const Link1: React.FC<TypographyLinkProps> = ({
     return (
         <a
             className={twMerge(
-                "transition-colors font-proxima font-medium text-[18px] leading-[35px] text-punkz-white-1 hover:text-punkz-pink-2",
+                "transition-colors font-proxima font-medium text-[18px] leading-[35px] text-white hover:text-primary-light",
                 className
             )}
             // eslint-disable-next-line react/jsx-props-no-spreading

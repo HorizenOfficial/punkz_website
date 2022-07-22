@@ -10,7 +10,7 @@ const H3: React.FC<TypographyHeadingProps> = ({
     return (
         <h3
             className={twMerge(
-                "font-proxima text-punkz-white-1 font-bold text-3xl md:text-[44px]",
+                "font-proxima text-white font-bold text-3xl md:text-[44px]",
                 className
             )}
             // eslint-disable-next-line react/jsx-props-no-spreading
