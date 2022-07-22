@@ -1,5 +1,6 @@
 import React from "react"
 import { twMerge } from "tailwind-merge"
+import BaseButton from "./BaseButton"
 import { ButtonProps } from "./types"
 
 const ButtonSecondary: React.FC<ButtonProps> = ({
@@ -8,8 +9,7 @@ const ButtonSecondary: React.FC<ButtonProps> = ({
     ...props
 }) => {
     return (
-        <button
-            type="button"
+        <BaseButton
             className={twMerge(
                 "transition-colors w-full max-w-full md:max-w-[min(220px,100%)] h-[52px] flex justify-center items-center font-proxima font-bold text-[22px] leading-[35px] text-white bg-black border-white hover:text-primary-light disabled:!opacity-70 disabled:!bg-black disabled:!text-white",
                 className
@@ -18,7 +18,7 @@ const ButtonSecondary: React.FC<ButtonProps> = ({
             {...props}
         >
             {children}
-        </button>
+        </BaseButton>
     )
 }
 
