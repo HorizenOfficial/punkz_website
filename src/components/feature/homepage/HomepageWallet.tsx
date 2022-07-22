@@ -17,7 +17,7 @@ const HomepageWallet: React.FC<
                         alt="cobalt wallet"
                         className="hidden md:w-full md:block md:max-h-[700px] md:object-contain"
                     />
-                    <ContentContainer className="md:!pl-0 md:mt-[60px] lg:mt-[130px] w-full">
+                    <ContentContainer className="md:pl-0 md:mt-[60px] lg:mt-[130px] w-full">
                         <H2>Wallet</H2>
 
                         <Body1 className="mt-[40px] max-w-[616px]">

@@ -1,4 +1,5 @@
 import React from "react"
+import { twMerge } from "tailwind-merge"
 import { TypographyHeadingProps } from "./types"
 
 const H3: React.FC<TypographyHeadingProps> = ({
@@ -8,7 +9,10 @@ const H3: React.FC<TypographyHeadingProps> = ({
 }) => {
     return (
         <h3
-            className={`font-proxima text-punkz-white-1 font-bold text-3xl md:text-[44px]  ${className}`}
+            className={twMerge(
+                "font-proxima text-punkz-white-1 font-bold text-3xl md:text-[44px]",
+                className
+            )}
             // eslint-disable-next-line react/jsx-props-no-spreading
             {...rest}
         >

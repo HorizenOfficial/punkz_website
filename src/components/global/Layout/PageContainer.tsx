@@ -1,12 +1,16 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { twMerge } from "tailwind-merge"
 
 const PageContainer: React.FC<
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
 > = ({ className, children, ...props }) => {
     return (
         <main
-            className={`bg-black h-[100vh] overflow-x-hidden ${className}`}
+            className={twMerge(
+                "bg-black h-[100vh] overflow-x-hidden",
+                className
+            )}
             // eslint-disable-next-line react/jsx-props-no-spreading
             {...props}
         >
