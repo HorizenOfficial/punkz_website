@@ -50,7 +50,7 @@ const HomepageAirdropsV1: React.FC<
                 </BigBox>
                 <BottomCut className="hidden lg:block absolute right-0 bottom-0 w-[calc(80%+28px)]" />
             </div>
-            <div className="relative lg:h-[440px] bg-secondary-dark grid grid-cols-1 lg:grid-cols-[65fr,35fr]">
+            {/* <div className="relative lg:h-[440px] bg-secondary-dark grid grid-cols-1 lg:grid-cols-[65fr,35fr]">
                 <TopCut className="hidden lg:block absolute top-0 left-0 w-[calc(80%+28px)]" />
                 <BigBox
                     className={`lg:pr-[47px] order-2 lg:order-1 ${paddingsLeft}`}
@@ -79,7 +79,7 @@ const HomepageAirdropsV1: React.FC<
                     </H2>
                 </SmallBox>
                 <BottomCut className="hidden lg:block absolute right-0 bottom-0 w-[20%]" />
-            </div>
+            </div> */}
         </section>
     )
 }
