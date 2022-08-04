@@ -19,7 +19,7 @@ const OptInSuccessPageBody: React.FC<
             <CheckMarkGrafiti />
             <H2 className="mt-7">Thank you</H2>
             <Body1 className="mt-2 text-gray">You are now subscribed!</Body1>
-            <ButtonPrimary href="/" className="mt-14">
+            <ButtonPrimary href="/" target="_self" className="mt-14">
                 Back to Homepage
             </ButtonPrimary>
         </section>
