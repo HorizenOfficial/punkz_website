@@ -7,25 +7,45 @@ const HomepageAirdrops: React.FC<
 > = (props) => {
     const renderDates = (): JSX.Element[] => {
         const dates = [
+            // {
+            //     text: "PKZ drop to 1st group of TZNY holders",
+            //     date: "Aug 8 2022",
+            //     millis: 1659981600000,
+            // },
+            // {
+            //     text: "PKZ drop to all TCAKE holders",
+            //     date: "Aug 8 2022",
+            //     millis: 1659981600000,
+            // },
+            // {
+            //     text: "PKZ drop to 2nd group of TZNY holders",
+            //     date: "Aug 10 2022",
+            //     millis: 1660154400000,
+            // },
+            // {
+            //     text: "PKZ drop to 3rd group of TZNY holders",
+            //     date: "Aug 10 2022",
+            //     millis: 1660154400000,
+            // },
             {
                 text: "PKZ drop to 1st group of TZNY holders",
-                date: "Aug 8 2022",
-                millis: 1659981600000,
+                date: "Coming Soon",
+                millis: 1691155883000,
             },
             {
                 text: "PKZ drop to all TCAKE holders",
-                date: "Aug 8 2022",
-                millis: 1659981600000,
+                date: "Coming Soon",
+                millis: 1691155883000,
             },
             {
                 text: "PKZ drop to 2nd group of TZNY holders",
-                date: "Aug 10 2022",
-                millis: 1660154400000,
+                date: "Coming Soon",
+                millis: 1691155883000,
             },
             {
                 text: "PKZ drop to 3rd group of TZNY holders",
-                date: "Aug 10 2022",
-                millis: 1660154400000,
+                date: "Coming Soon",
+                millis: 1691155883000,
             },
         ]
 
