@@ -83,9 +83,9 @@ const HomepageAirdrops: React.FC<
 
                         <Body1 className="md:col-span-2">
                             The PKZ airdrop for TZNY holders will be deployed in
-                            four batches over the course of a week. TZNY holders
-                            will be randomly divided into four groups. Each
-                            group will receive an airdrop as scheduled below:
+                            two batches. TZNY holders will be randomly divided
+                            in two groups. Each group will receive an airdrop as
+                            scheduled below:
                         </Body1>
 
                         <div className="grid grid-cols-1 gap-y-[10px] md:col-span-2 auto-rows-fr">
