@@ -55,9 +55,9 @@ module.exports = {
             },
         },
         {
-            resolve: "gatsby-plugin-google-tagmanager",
+            resolve: `gatsby-plugin-plausible`,
             options: {
-                id: "GTM-KG25QDF",
+                domain: `punkztoken.com`,
             },
         },
     ],
