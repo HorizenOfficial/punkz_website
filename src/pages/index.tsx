@@ -9,6 +9,7 @@ import Header from "../components/global/Header"
 import { PageContainer } from "../components/global/Layout"
 import Newsletter from "../components/global/Newsletter"
 import HomepagePlayAndEarn from "../components/feature/homepage/HomepagePlayAndEarn"
+import HomepageMoreWaysToEarnPkz from "../components/feature/homepage/HomepageMoreWaysToEarnPkz"
 
 const Index = () => {
     return (
@@ -17,6 +18,7 @@ const Index = () => {
             <Header />
             <HomepageHero />
             <HomepagePlayAndEarn className="pt-24" />
+            <HomepageMoreWaysToEarnPkz className="pt-24 md:pt-40" />
             <HomepageWallet className="pt-24" />
             <HomepagePunkzToken className="pt-24 lg:pt-[150px] xl:pt-[200px]" />
             <HomepageDiscord className="pt-24" />

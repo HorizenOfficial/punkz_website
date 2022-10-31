@@ -34,7 +34,7 @@ const HomepagePlayAndEarn: React.FC<
                         </div>
                     </div>
                 </div>
-                <div className="px-6 md:px-12 md:pl-0 md:mt-[60px]  w-full order-1 md:order-2">
+                <div className="px-6 md:px-12 md:pl-0 md:pt-16  w-full order-1 md:order-2">
                     <H2>
                         Play and
                         <br />
