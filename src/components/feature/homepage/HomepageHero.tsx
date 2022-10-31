@@ -11,11 +11,11 @@ const HomepageHero = () => {
     const renderLinks = (): JSX.Element[] => {
         const links = [
             {
-                text: "Airdrops",
-                href: "#airdrops",
+                text: "Play and Earn",
+                href: "#play-and-earn",
             },
             {
-                text: "Get Started",
+                text: "Download Wallet",
                 href: "#get-started",
             },
             {
@@ -28,7 +28,7 @@ const HomepageHero = () => {
             <a
                 href={link.href}
                 key={link.text}
-                className="group w-[160px] transition-all lg:hover:ml-2 flex items-center flex-col lg:flex-row lg:gap-x-5"
+                className="group w-[180px] transition-all lg:hover:ml-2 flex items-center flex-col lg:flex-row lg:gap-x-5"
             >
                 <HomepageHeroLinkArrow className="transition-colors stroke-primary-light rotate-90 lg:rotate-0 lg:stroke-[#B4BBCC] group-hover:stroke-primary-light" />
                 <span className="font-proxima font-bold text-[18px] text-white lg:text-[#B4BBCC] hover:text-white">

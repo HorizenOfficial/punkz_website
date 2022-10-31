@@ -10,7 +10,7 @@ const HomepagePlayAndEarn: React.FC<
 > = (props) => {
     return (
         // eslint-disable-next-line react/jsx-props-no-spreading
-        <section {...props} id="get-started">
+        <section {...props} id="play-and-earn">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-10 xl:gap-16">
                 <div className="flex flex-col px-6 md:pl-12 justify-center order-2 md:order-1">
                     <img
