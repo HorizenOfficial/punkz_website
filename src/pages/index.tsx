@@ -8,7 +8,7 @@ import Footer from "../components/global/Footer"
 import Header from "../components/global/Header"
 import { PageContainer } from "../components/global/Layout"
 import Newsletter from "../components/global/Newsletter"
-import HomepageAirdrops from "../components/feature/homepage/HomepageAirdrops"
+import HomepagePlayAndEarn from "../components/feature/homepage/HomepagePlayAndEarn"
 
 const Index = () => {
     return (
@@ -16,10 +16,10 @@ const Index = () => {
             <HomepageHelmet />
             <Header />
             <HomepageHero />
-            <HomepageAirdrops className="pt-[65px] lg:pt-[100px]" />
-            <HomepageWallet className="pt-[65px] lg:pt-[100px]" />
-            <HomepagePunkzToken className="pt-[65px] lg:pt-[150px] xl:pt-[200px]" />
-            <HomepageDiscord className="pt-[65px] lg:pt-[100px]" />
+            <HomepagePlayAndEarn className="pt-24 lg:pt-6" />
+            <HomepageWallet className="pt-24" />
+            <HomepagePunkzToken className="pt-24 lg:pt-[150px] xl:pt-[200px]" />
+            <HomepageDiscord className="pt-24" />
             {/* Uncomment the below code when we have some FAQ copies */}
             {/* <HomepageFAQ /> */}
             <Newsletter />
