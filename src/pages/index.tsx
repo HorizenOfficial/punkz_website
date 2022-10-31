@@ -16,7 +16,7 @@ const Index = () => {
             <HomepageHelmet />
             <Header />
             <HomepageHero />
-            <HomepagePlayAndEarn className="pt-24 lg:pt-6" />
+            <HomepagePlayAndEarn className="pt-24" />
             <HomepageWallet className="pt-24" />
             <HomepagePunkzToken className="pt-24 lg:pt-[150px] xl:pt-[200px]" />
             <HomepageDiscord className="pt-24" />
