@@ -30,7 +30,7 @@ const Footer = () => {
                                 <TwitterLogoSmall className="transition-colors group-hover:fill-primary-light" />
                             </a>
                             <a
-                                href="https://horizen.io/invite/discord"
+                                href="https://discord.gg/QSKMpzYDrJ"
                                 target="_blank"
                                 className="group"
                                 rel="noreferrer"

@@ -13,7 +13,7 @@ const HomepageDiscord: React.FC<
                 <div className="px-6 md:px-12 lg:px-8">
                     <div className="max-w-[500px] h-[225px] m-auto">
                         <a
-                            href="https://horizen.io/invite/discord"
+                            href="https://discord.gg/QSKMpzYDrJ"
                             target="_blank"
                             className="flex flex-col items-center relative group"
                             rel="noreferrer"
