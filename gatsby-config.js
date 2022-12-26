@@ -2,10 +2,12 @@ require("dotenv").config({
     path: `.env`,
 })
 
+const siteUrl = `https://punkztoken.com/`
+
 module.exports = {
     siteMetadata: {
         title: `Punkz Token`,
-        siteUrl: `https://punkztoken.com/`,
+        siteUrl,
     },
     plugins: [
         "gatsby-plugin-react-helmet",
@@ -58,6 +60,17 @@ module.exports = {
             resolve: `gatsby-plugin-plausible`,
             options: {
                 domain: `punkztoken.com`,
+            },
+        },
+        {
+            resolve: "gatsby-plugin-matomo",
+            options: {
+                siteId: "5",
+                matomoUrl: "https://horizen.matomo.cloud",
+                matomoPhpScript: "matomo.php",
+                matomoJsScript: "matomo.js",
+                cookieDomain: "*.punkztoken.com",
+                siteUrl,
             },
         },
     ],
